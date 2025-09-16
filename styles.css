@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: olive;
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav h3:hover{
+    cursor: pointer;   
+}
+.menu{
+    display: flex;
+    margin-left: 1000px;
+}
+.menu h5{
+    margin-left: 20px;
+}
+h5:hover{
+    cursor: pointer;
+    color: red;
+}
+.men{
+    color: gold;
+}
+.text{
+    color: white;
+    padding-top: 180px;
+    padding-left: 90px;
+}
+.text h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    
+    margin-top: 25px;
+    padding: 15px;
+    color:black;
+    background-color: chartreuse;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.1s;
+    color: red;
+}
+.img{
+    position: absolute;
+    top: 200px;
+    left: 900px; 
+    animation: burg infinite alternate;
+    animation-duration: 0.5s;
+    
+}
+@keyframes burg{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+       transform: translateY(-10px); 
+    }
+}
+
+
+
